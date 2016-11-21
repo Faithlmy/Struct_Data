@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<malloc.h>
-typedef struct Node{//hh
+typedef struct Node{
 
 	int data;
 
