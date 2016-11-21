@@ -85,6 +85,7 @@ Tree * exchange_rootMiddle(Tree* T)     //类似于中序遍历
 	return T;
 
 }
+//测试函数
 void main()
 {
 	Tree *T;
