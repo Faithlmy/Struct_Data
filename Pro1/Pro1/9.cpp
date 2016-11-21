@@ -1,3 +1,7 @@
+/*
+遍历二叉树
+*/
+
 #include<stdio.h>
 #include<malloc.h>
 typedef struct Node{
@@ -67,7 +71,7 @@ void exchange_rootLast(Tree* T)    // 后序遍历
 
 
 }
-Tree * exchange_rootMiddle(Tree* T)     //类似于中序遍历
+Tree * exchange_rootMiddle(Tree* T)//类似于中序遍历，和中序遍历还有很大不同
 {
 	if (T != NULL)
 	if (T->LChild != NULL || T->RChild != NULL)
