@@ -209,7 +209,7 @@ int main()
 	printf_s("后序遍历：\n");
 	PostOrder(T);
 	printf_s("\n");
-	system("pasue");
+	
 	printf_s("后序遍历(非递归)：\n");
 	PostOrder2(T);
 	printf_s("\n");
