@@ -1,3 +1,4 @@
+
 #include<iostream>  
 #include<stack>  
 #include<queue>  
@@ -217,6 +218,9 @@ int main()
 	printf_s("²ã´Î±éÀú£º\n");
 	LevelOrder(T);
 	printf_s("\n");
-	system("pasue");
+
+	
+	
+	return 0;
 	
 }
