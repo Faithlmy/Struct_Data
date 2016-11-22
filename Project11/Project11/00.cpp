@@ -193,7 +193,7 @@ int main()
 	printf_s("先序遍历：\n");
 	PreOrder(T);
 	printf_s("\n");
-	system("pasue");
+	
 	printf("先序遍历(非递归)：\n");
 	PreOrder2(T);
 	printf_s("\n");
