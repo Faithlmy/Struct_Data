@@ -201,7 +201,7 @@ int main()
 	printf_s("中序遍历：\n");
 	InOrder(T);
 	printf_s("\n");
-	system("pasue");
+	
 	printf_s("中序遍历(非递归)：\n");
 	InOrder2(T);
 	printf_s("\n");
