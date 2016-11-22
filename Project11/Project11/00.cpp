@@ -197,7 +197,7 @@ int main()
 	printf("先序遍历(非递归)：\n");
 	PreOrder2(T);
 	printf_s("\n");
-	system("pasue");
+
 	printf_s("中序遍历：\n");
 	InOrder(T);
 	printf_s("\n");
