@@ -9,7 +9,7 @@ typedef struct Node{
 void createTree(Tree **T)
 {
 	int data = 1;
-	scanf("%d", &data);
+	scanf_s("%d", &data);
 	if (data != 0)
 	{
 
