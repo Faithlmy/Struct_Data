@@ -98,6 +98,6 @@ void main()
 	printf_s("\n");
 	exchange_rootMiddle(T);
 	printTree(T);
-	printf("\n");
+	printf_s("\n");
 
 }
