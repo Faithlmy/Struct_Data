@@ -17,7 +17,7 @@ void CreateList(LinkList L)
 {
 	int dt;
 	Node *s;
-	while (scanf("%d", &dt)){
+	while (scanf_s("%d", &dt)){
 		s = (Node *)malloc(sizeof(Node));
 		s->data = dt;
 		s->next = L->next;
@@ -31,12 +31,14 @@ void ReverseList(LinkList L)
 	LinkList p, q;
 	p = L->next;
 	L->next = NULL;
-	while (p != NULL){
+	while (p != NULL)
+	{
 		q = p->next;
 		p->next = L->next;
 		L->next = p;
 		p = q;
 	}
+}
 	void printList(LinkList L)
 	{
 		LinkList p;
