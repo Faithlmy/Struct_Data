@@ -67,7 +67,11 @@
     <ClInclude Include="str.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="zhan.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="QueueOperat.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="StackOperat.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
