@@ -138,7 +138,7 @@ ElemType DeQueue_Sq(SqQueueCir &q)
 }
 void Menu()
 {
-	printf("按数字键选择相应操作\n");
+	cout <<"按数字键选择相应操作\n";
 	printf("<1> 采用链式存储实现栈的初始化、入栈、出栈操作:\n");
 	printf("<2> 采用顺序存储实现栈的初始化、入栈、出栈操作:\n");
 	printf("<3> 采用链式存储实现队列的初始化、入队、出队操作\n");
