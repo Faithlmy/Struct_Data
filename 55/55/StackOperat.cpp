@@ -1,6 +1,12 @@
-#include "str.h"
+#include "lmy.h"
+#include "Stack.cpp"
+#include "Queue.cpp"
 
-
+void CreateLq(LqStack &s)   //链式栈的构建；
+{
+	s.top = (LNode*)malloc(sizeof(LNode));
+	s.top->next = NULL;
+}
 void LqPush(LqStack &s)      //链式栈的入栈；
 {
 	LNode *p;
@@ -9,7 +15,6 @@ void LqPush(LqStack &s)      //链式栈的入栈；
 	p->next = s.top;  //....
 	s.top = p;
 }
-
 ElemType LqGetTop(LqStack s)
 //链式栈的出栈，返回一个ElemT类型；数，并释放此结点。
 {
@@ -21,33 +26,26 @@ ElemType LqGetTop(LqStack s)
 	free(p);
 	return e;
 }
-
-void InitQueue(SqQueue &Q)      //链式队列的初始化;
+void CreateSq(SqStack &s)        //顺序栈初始化;
 {
-	Q.rear = (LNode*)malloc(sizeof(LNode));
-	if (!Q.rear)exit(OVERFLOW);//判断是否成功开辟空间;
-	Q.front = Q.rear;
-	Q.front->next = NULL;
+	s.base = (ElemType *)malloc(MAX*sizeof(ElemType));
+	if (!s.base)
+		exit(OVERFLOW);
+	s.top = s.base;
 }
-void EnQueue(SqQueue &Q)   //链式队列的入队;
+void Push(SqStack &s, ElemType e)   //顺序栈入栈;
 {
-	LNode *p;
-	p = (LNode*)malloc(sizeof(LNode));
-	if (!p)exit(OVERFLOW);
-	cin >> p->data;
-	p->next = NULL;
-	Q.rear->next = p;
-	Q.rear = p;
+	if ((s.top - s.base)>MAX || (s.top - s.base) == MAX)
+		exit(OVERFLOW);
+	*(s.top) = e;
+	s.top++;
 }
-ElemType PoQueue(SqQueue &Q)//链式队列的出队;
+ElemType GetTop(SqStack &s)       //顺序栈出栈;
 {
-	LNode *p;
 	ElemType e;
-	if (Q.rear == Q.front)exit(OVERFLOW);
-	p = Q.front->next;
-	e = p->data;
-	Q.front->next = p->next;
-	if (Q.rear == p) Q.rear = Q.front;
-	free(p);
+	if (s.top == s.base)//判断栈空;
+		cout << "栈为空！" << endl;
+	e = *(s.top - 1);
+	s.top--;
 	return e;
 }

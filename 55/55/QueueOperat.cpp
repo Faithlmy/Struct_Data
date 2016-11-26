@@ -1,5 +1,36 @@
-#include"str.h"
+#include "lmy.h"
+#include "Queue.cpp"
+#include "Stack.cpp"
 
+void InitQueue(SqQueue &Q)      //链式队列的初始化;
+{
+	Q.rear = (LNode*)malloc(sizeof(LNode));
+	if (!Q.rear)exit(OVERFLOW);//判断是否成功开辟空间;
+	Q.front = Q.rear;
+	Q.front->next = NULL;
+}
+void EnQueue(SqQueue &Q)   //链式队列的入队;
+{
+	LNode *p;
+	p = (LNode*)malloc(sizeof(LNode));
+	if (!p)exit(OVERFLOW);
+	cin >> p->data;
+	p->next = NULL;
+	Q.rear->next = p;
+	Q.rear = p;
+}
+ElemType PoQueue(SqQueue &Q)//链式队列的出队;
+{
+	LNode *p;
+	ElemType e;
+	if (Q.rear == Q.front)exit(OVERFLOW);
+	p = Q.front->next;
+	e = p->data;
+	Q.front->next = p->next;
+	if (Q.rear == p) Q.rear = Q.front;
+	free(p);
+	return e;
+}
 void Create_Sq(SqQueueCir &q)
 {
 	q.base = (ElemType*)malloc(MAX * sizeof(ElemType));
