@@ -19,7 +19,7 @@ void EnQueue(SqQueue &Q)   //链式队列的入队;
 	Q.rear->next = p;
 	Q.rear = p;
 }
-ElemType PoQueue(SqQueue &Q)//链式队列的出队;
+ElemType PoQueue(SqQueue &Q)//链式队列的出队
 {
 	LNode *p;
 	ElemType e;
