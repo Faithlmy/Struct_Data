@@ -5,7 +5,7 @@
 void InitQueue(SqQueue &Q)      //链式队列的初始化
 {
 	Q.rear = (LNode*)malloc(sizeof(LNode));
-	if (!Q.rear)exit(OVERFLOW);//判断是否成功开辟空间;
+	if (!Q.rear)exit(OVERFLOW);//判断是否成功开辟空间
 	Q.front = Q.rear;
 	Q.front->next = NULL;
 }
