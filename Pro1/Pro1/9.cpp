@@ -1,7 +1,6 @@
 /*
 ±éÀú¶ş²æÊ÷
 */
-
 #include<stdio.h>
 #include<malloc.h>
 typedef struct Node{
