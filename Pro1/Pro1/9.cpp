@@ -25,7 +25,6 @@ void createTree(Tree **T)
 		createTree(&(*T)->LChild);
 		createTree(&(*T)->RChild);
 	}
-
 }
 void printTree(Tree *T)
 {
