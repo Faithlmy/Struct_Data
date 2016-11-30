@@ -10,7 +10,6 @@ void InitList(LinkList *L)
 	*L = (LinkList)malloc(sizeof(Node));
 	(*L)->next = NULL;
 }
-
 void CreateList(LinkList L)
 {
 	int dt;
