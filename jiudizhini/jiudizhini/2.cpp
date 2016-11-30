@@ -22,7 +22,6 @@ void CreateList(LinkList L)
 	}
 	//printf("create success\n");  
 }
-
 void ReverseList(LinkList L)
 {
 	LinkList p, q;
