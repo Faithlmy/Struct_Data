@@ -49,7 +49,6 @@ void ReverseList(LinkList L)
 		}
 		printf("\n");
 	}
-
 	int main()
 	{
 		LinkList list;
