@@ -103,7 +103,6 @@ LinkList Delete_Data_LinkList(LinkList pHead, int iData)
 	}
 	printf("no such data\n");
 	return pHead;
-
 }
 //根据位置删除结点
 //iLocate为需要删除的位置
