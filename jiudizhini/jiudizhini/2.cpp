@@ -5,8 +5,6 @@ typedef struct Node{
 	int data;
 	struct Node * next;
 }Node, *LinkList;
-
-
 void InitList(LinkList *L)
 {
 	*L = (LinkList)malloc(sizeof(Node));
