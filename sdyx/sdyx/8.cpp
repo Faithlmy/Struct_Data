@@ -45,7 +45,7 @@ int main(void){//动态创建存放边的指针数组
 	vertexStatusArr = NULL;
 	return 0;
 }
-//创建图   
+  //创建图   
 void createGraph(st_edge** edge, int start, int end){
 	st_edge* newedge = (st_edge*)malloc(sizeof(st_edge));
 	newedge->vertex = end;
