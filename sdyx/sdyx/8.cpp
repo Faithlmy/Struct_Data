@@ -36,7 +36,7 @@ int main(void){//动态创建存放边的指针数组
 
 	printf("after create:\n");
 	displayGraph(edge);
-	//深度优先遍历   
+	 //深度优先遍历   
 	DFT(edge, vertexStatusArr);
 	//释放邻接表占用的内存    
 	delGraph(edge);
