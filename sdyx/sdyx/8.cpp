@@ -13,8 +13,7 @@ void delGraph(st_edge** edge);
 void DFT(st_edge** edge, int* vertexStatusArr);
 void DFTcore(st_edge** edge, int i, int* vertexStatusArr);
 
-int main(void){
-	//动态创建存放边的指针数组     
+int main(void){//动态创建存放边的指针数组     
 	st_edge** edge = (st_edge**)malloc(sizeof(st_edge*)*VERTEXNUM);
 	int i;
 	for (i = 0; i<VERTEXNUM; i++){
