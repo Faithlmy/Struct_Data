@@ -19,7 +19,7 @@ int main(void){//动态创建存放边的指针数组
 	for (i = 0; i<VERTEXNUM; i++){
 		edge[i] = NULL;
 	}
-	//存放顶点的遍历状态，0：未遍历，1：已遍历    
+	 //存放顶点的遍历状态，0：未遍历，1：已遍历    
 	int* vertexStatusArr = (int*)malloc(sizeof(int)*VERTEXNUM);
 	for (i = 0; i<VERTEXNUM; i++){
 		vertexStatusArr[i] = 0;
