@@ -27,7 +27,7 @@ int main(void){//动态创建存放边的指针数组
 
 	printf("after init:\n");
 	displayGraph(edge);
-	//创建图    
+	 //创建图    
 	createGraph(edge, 0, 3);
 	createGraph(edge, 0, 4);
 	createGraph(edge, 3, 1);
