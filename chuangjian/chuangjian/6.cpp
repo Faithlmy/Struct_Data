@@ -132,7 +132,7 @@ LinkList Delete_Locate_LinkList(LinkList pHead, int iLocate)
 		}
 
 		pFlag->pNext = pFlag->pNext->pNext;
-		//        free(pFlag->pNext);
+		//      free(pFlag->pNext);
 		printf("Del Success");
 		return pHead;
 	}
