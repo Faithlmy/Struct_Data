@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define SUCCESS     1
-#define FLASE         0
+#define FLASE       0
 typedef struct node
 {
 	int iData;
