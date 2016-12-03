@@ -8,7 +8,7 @@ typedef struct node
 	struct node *pNext;
 }Node, *LinkList;
 //初始化链表
-//返回类型为指向结构体的指针
+//返回类型为指 向结构体的指针
 LinkList Init_LinkList(LinkList pHead)
 {
 	pHead = NULL;
