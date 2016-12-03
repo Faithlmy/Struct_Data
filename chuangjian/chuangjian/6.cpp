@@ -81,7 +81,7 @@ LinkList Delete_Data_LinkList(LinkList pHead, int iData)
 	if (pHead->iData == iData)
 	{
 		pHead = pFlag1->pNext;
-		//        free(pFlag1);
+		//     free(pFlag1);
 		printf("Del Succuess\n");
 		return pHead;
 	}
