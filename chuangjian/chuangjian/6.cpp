@@ -174,7 +174,7 @@ int Printf_Node(LinkList pHead)
 		printf("%d\t", pNode->iData);
 		pNode = pNode->pNext;
 	}
-	return SUCCESS;      //成功返回SUCCESS
+	return SUCCESS;  //成功返回SUCCESS
 }
 void Run_LinkList(void)
 {
