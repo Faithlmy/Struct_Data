@@ -173,7 +173,7 @@ void Create(SqQueueCirl &q)
 	q.base = (ElemType*)malloc(10 * sizeof(ElemType));
 	if (!q.base)exit(OVERFLOW);
 	q.base[0] = 0;
-	q.base[1] = 1; //循环队列的第一个元素存为1;
+	q.base[1] = 1; // 循环队列的第一个元素存为1;
 	q.temp = q.rear = 2;//对头和输出指针指向第二个元素的位置;
 	q.front = 1;
 }
