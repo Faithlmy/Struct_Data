@@ -28,7 +28,7 @@ int Get_Length(LinkList pHead)
 	return iLength;
 }
 //插入结点
-//成功插入返回链表头指针，不成功提示错误，返回头指针
+//成功插入返回链 表头指针，不成功提示错误，返回头指针
 //pHead：结点头指针
 //iLocate：位置
 //iData：数据
