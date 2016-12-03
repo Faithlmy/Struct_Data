@@ -207,7 +207,7 @@ void PascalTriangle()
 		{
 			Init(q);
 			cout << DeQueue_Sq(q) << "   ";
-		}//输出上一行的i时，存入下一行的元素;
+		} //输出上一行的i时，存入下一行的元素;
 		q.base[(q.temp + 9) % 10] = 0;
 		cout << endl;
 		q.base[q.rear] = 1;
