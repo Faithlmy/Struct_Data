@@ -65,7 +65,7 @@ ElemType LqGetTop(LqStack s)
 	free(p);
 	return e;
 }
-void CreateSq(SqStack &s)        //À≥–Ú’ª≥ı ºªØ;
+void CreateSq(SqStack &s)     //À≥–Ú’ª≥ı ºªØ;
 {
 	s.base = (ElemType *)malloc(MAX*sizeof(ElemType));
 	if (!s.base)
