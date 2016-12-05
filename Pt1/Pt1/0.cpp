@@ -66,7 +66,7 @@ void exchange_rootLast(Tree* T)    // 后序遍历
 
 
 }
-Tree * exchange_rootMiddle(Tree* T)     //类似于中序遍历
+Tree * exchange_rootMiddle(Tree* T)     //类似于 中序遍历
 {
 	if (T != NULL)
 	if (T->LChild != NULL || T->RChild != NULL)
