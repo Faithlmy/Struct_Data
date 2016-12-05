@@ -19,7 +19,7 @@ void Divide(int array[], int n)
 int main(void)
 {
 	int i = 0;
-	int a[10] = { -8, 82, 76, -4, 27, 34, -26, -92, 0, 7 };
+	int a[10] = { -5, 82, 76, -4, 27, 34, -26, 92, 0, 7 };
 	Divide(a, 10);
 	for (i = 0; i < 10; i++)
 		printf_s("%4d", a[i]);
