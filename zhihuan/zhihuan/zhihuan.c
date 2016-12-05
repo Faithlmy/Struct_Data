@@ -7,7 +7,7 @@ void Divide(int array[], int n)
 	int temp = 0;
 	for (j = 0; j < n; j++)
 	{
-		if (array[j] <= 0)    //将小于0的数据存在array[i]起的数组里,i从0开始  
+		if (array[j] <= 0)  //将小于0的数据存在array[i]起的数组里,i从0开始  
 		{
 			temp = array[j];
 			array[j] = array[i];
