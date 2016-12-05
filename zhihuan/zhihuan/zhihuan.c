@@ -1,6 +1,6 @@
 #include <stdio.h>  
 
-/* 要求时间复杂度为O(n) */
+/* 要求时间复杂度为O(n)*/
 void Divide(int array[], int n)
 {
 	int i = 0, j = 0;
