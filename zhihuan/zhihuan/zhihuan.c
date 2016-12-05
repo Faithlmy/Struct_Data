@@ -16,7 +16,7 @@ void Divide(int array[], int n)
 		}
 	}
 }
-int main(void)
+int main()
 {
 	int i = 0;
 	int a[10] = { -5, 82, 76, -4, 27, 34, -26, 92, 0, 7 };
