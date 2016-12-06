@@ -5,7 +5,7 @@
 #define MAX_VEX 20  
 #define QUEUE_SIZE (MAX_VERTEX+1)  
 #define DataType char  /* vertext's info  */  
-int *visited; /* Node: visited flag with dynamic array, good idea ! */
+int *visited; /*  Node: visited flag with dynamic array, good idea ! */
 /* init queue for bfs */
 struct _node
 {
