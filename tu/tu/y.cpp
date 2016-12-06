@@ -105,7 +105,7 @@ graph create_graph()
 		tmp = getchar();
 		s1 = locate(g, ch1);
 		s2 = locate(g, ch2);
-		g.arcs[s1][s2] = g.arcs[s2][s1] = w; /* NOTE: weight */
+		g.arcs[s1][s2] = g.arcs[s2][s1] = w; /*  NOTE: weight */
 	}
 	return g;
 }
