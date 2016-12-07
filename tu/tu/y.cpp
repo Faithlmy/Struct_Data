@@ -94,7 +94,7 @@ graph create_graph()
 		printf("vex %d: ", i);
 		scanf_s("%c", &g.vexs[i]);
 		tmp = getchar();
-		// visited[i]=0;  
+		//  visited[i]=0;  
 	}
 	for (i = 0; i<g.vexnum; i++)
 	for (j = 0; j<g.vexnum; j++)
