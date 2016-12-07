@@ -1,7 +1,6 @@
 #include <stdio.h>  
 #include <malloc.h>  
 #include <stdlib.h>  
-
 #define INFINITY 32767  
 #define MAX_VEX 20  
 #define QUEUE_SIZE (MAX_VERTEX+1)  
