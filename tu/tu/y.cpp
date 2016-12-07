@@ -28,7 +28,7 @@ struct _graph
 };
 typedef struct _graph graph, *pgraph;
 
-/* operation of queue */
+/*  operation of queue */
 queue init_queue()
 {
 	queue qu;
