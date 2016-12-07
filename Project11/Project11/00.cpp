@@ -71,7 +71,8 @@ void PostOrder(BiTree T){
 	}
 }
 /* 先序遍历(非递归)
-思路：访问T->data后，将T入栈，遍历左子树；遍历完左子树返回时，栈顶元素应为T，出栈，再先序遍历T的右子树。
+思路：访问T->data后，将T入栈，遍历左子树；遍历完左子树返回时，
+栈顶元素应为T，出栈，再先序遍历T的右子树。
 */
 void PreOrder2(BiTree T){
 	stack<BiTree> stack;
