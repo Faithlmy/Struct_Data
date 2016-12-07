@@ -1,6 +1,7 @@
 #include <stdio.h>  
 #include <malloc.h>  
 #include <stdlib.h>  
+
 #define INFINITY 32767  
 #define MAX_VEX 20  
 #define QUEUE_SIZE (MAX_VERTEX+1)  
@@ -26,6 +27,7 @@ struct _graph
 	int vexnum, arcnum;
 };
 typedef struct _graph graph, *pgraph;
+
 /* operation of queue */
 queue init_queue()
 {
@@ -92,7 +94,8 @@ graph create_graph()
 		printf("vex %d: ", i);
 		scanf_s("%c", &g.vexs[i]);
 		tmp = getchar();
-		//visited[i]=0;  
+
+		// visited[i]=0;  
 	}
 	for (i = 0; i<g.vexnum; i++)
 	for (j = 0; j<g.vexnum; j++)
