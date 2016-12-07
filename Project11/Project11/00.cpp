@@ -8,7 +8,7 @@ using namespace std;
 typedef struct BiTNode{
 	//数据  
 	char data;
-	//左右孩子指针  
+//左右孩子指针  
 	struct BiTNode *lchild, *rchild;
 }BiTNode, *BiTree;
 
