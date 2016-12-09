@@ -80,7 +80,7 @@ Status CreatBiTree(BiTree &T)
 	return OK;
 }
 Status PreOrderTraverse1(BiTree T)
-{//递归算法先序遍历二叉树  
+{ //递归算法先序遍历二叉树  
 	if (!T)
 		return ERROR;
 	cout << T->data;
