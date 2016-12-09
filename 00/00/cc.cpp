@@ -13,7 +13,7 @@ typedef struct BiTNode
 	struct BiTNode *lchild, *rchild; //左右孩子指针  
 }BiTNode, *BiTree;
 typedef struct Stack
-{//链栈结构  
+{ //链栈结构  
 	BiTree *base;
 	BiTree *top;
 	int stacksize;
