@@ -121,7 +121,6 @@ void iterativeInOrderTraverse(const BiTree& T)
 		}
 	}
 }
-
 //二叉树的后序非递归遍历   
 void iterativePostOrderTraverse(const BiTree& T)
 {
