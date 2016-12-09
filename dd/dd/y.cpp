@@ -144,7 +144,7 @@ void iterativePostOrderTraverse(const BiTree& T)
 			}
 			else//右子树已访问   
 			{
-				cout << s.top().first->data << " "; //输出根结点值   
+				cout << s.top().first->data << " ";  //输出根结点值   
 				s.pop();//根结点出栈   
 			}
 		}
