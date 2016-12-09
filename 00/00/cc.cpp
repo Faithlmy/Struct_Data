@@ -89,7 +89,7 @@ Status PreOrderTraverse1(BiTree T)
 	return OK;
 }
 Status InOrderTraverse1(BiTree T)
-{//递归方法中序遍历二叉树  
+{ //递归方法中序遍历二叉树  
 	if (T)
 	{
 		InOrderTraverse1(T->lchild);
