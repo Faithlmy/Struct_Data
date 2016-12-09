@@ -163,7 +163,8 @@ Status PostOrderTraverse2(BiTree T)
 	BiTree Have_visited = NULL;
 	while (!EmptyStack(s))
 	{
-		if (GetTop(s, p) && p->lchild&&Have_visited != p->lchild&&!(p->rchild&&Have_visited == p->rchild))
+		if (GetTop(s, p) && 
+			p->lchild&&Have_visited != p->lchild&&!(p->rchild&&Have_visited == p->rchild))
 			Push(s, p->lchild);
 		else if (p->rchild&&Have_visited != p->rchild)
 			Push(s, p->rchild);
