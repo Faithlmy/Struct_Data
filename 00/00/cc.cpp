@@ -109,7 +109,7 @@ Status PostOrderTraverse1(BiTree T)
 	return OK;
 }
 Status PreOrderTraverse2(BiTree T)
-{//非递归算法先序构造二叉树  
+{ //非递归算法先序构造二叉树  
 	SqStack s;
 	BiTree p;
 	p = T;
