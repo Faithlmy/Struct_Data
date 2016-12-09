@@ -63,7 +63,7 @@ Status Pop(SqStack &s, BiTree &e)
 	return OK;
 }
 Status CreatBiTree(BiTree &T)
-{//递归算法先序构造二叉树  
+{ //递归算法先序构造二叉树  
 	char ch;
 	cin >> ch;
 	if (ch == '#')
