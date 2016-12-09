@@ -10,7 +10,7 @@ typedef int Status;
 typedef struct BiTNode
 {//二叉链表结构  
 	TElemType data;
-	struct BiTNode *lchild, *rchild;//左右孩子指针  
+	struct BiTNode *lchild, *rchild; //左右孩子指针  
 }BiTNode, *BiTree;
 typedef struct Stack
 {//链栈结构  
