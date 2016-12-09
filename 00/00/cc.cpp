@@ -134,7 +134,7 @@ Status PreOrderTraverse2(BiTree T)
 	return OK;
 }
 Status InOrderTraverse2(BiTree T)
-{//非递归算法中序构造二叉树  
+{ //非递归算法中序构造二叉树  
 	SqStack s;
 	BiTree p;
 	p = T;
