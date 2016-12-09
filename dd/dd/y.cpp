@@ -184,7 +184,7 @@ int main(int argc, char *argv[])
 	BiTree T = NULL;
 
 	createBiTree(T);//建立二叉树 如输入AB#D##CE###   
-	//  createBiTreeWithGenList(T);//如输入A(B(,D),C(E))#  
+	// createBiTreeWithGenList(T);//如输入A(B(,D),C(E))#  
 
 	cout << "levelOrder: ";
 	levelOrderTraverse(T);
