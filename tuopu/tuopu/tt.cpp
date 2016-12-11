@@ -24,7 +24,6 @@ void push(sqStack &S, int x)
 		cout << "Stack Overflow!";
 	S.elem[++S.top] = x;
 }
-
 /*³öÕ»*/
 int pop(sqStack &S)
 {
