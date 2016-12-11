@@ -81,7 +81,7 @@ void TopoSort(LGraph &G)
 	for (i = 0; i<G.vexnum; i++)
 		G.vexs[i].indegree = 0;//初始化为0  
 	for (i = 0; i<G.vexnum; i++)
-	{//计算各个顶点的入度  
+	{ //计算各个顶点的入度  
 		p = G.vexs[i].firstedge;
 		while (p)
 		{
