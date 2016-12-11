@@ -34,7 +34,7 @@ int pop(sqStack &S)
 	return x;
 }
 typedef struct EdgeNode
-{//边表结点的定义  
+{ //边表结点的定义  
 	int adjvex;//存放邻接点在顶点表中的位置  
 	struct EdgeNode * nextedge;//指向下一个边表结点  
 }EdgeNode;
