@@ -69,8 +69,7 @@ void CreateDG_AL(LGraph &G, int n, int e)
 		p->nextedge = G.vexs[i].firstedge;
 		G.vexs[i].firstedge = p;//≤…”√Õ∑≤Â∑®  
 	}
-}
-//Õÿ∆À≈≈–Ú  
+}//Õÿ∆À≈≈–Ú  
 void TopoSort(LGraph &G)
 {
 	sqStack S;
