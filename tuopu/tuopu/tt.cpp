@@ -91,7 +91,7 @@ void TopoSort(LGraph &G)
 	}
 	for (i = 0; i<G.vexnum; i++)
 	if (G.vexs[i].indegree == 0)
-		push(S, i);//将度为0的顶点入栈,这里进栈的是入度为0的顶点在数组中的位置  
+		push(S, i);  //将度为0的顶点入栈,这里进栈的是入度为0的顶点在数组中的位置  
 	while (S.top != -1)
 	{
 		j = pop(S);
