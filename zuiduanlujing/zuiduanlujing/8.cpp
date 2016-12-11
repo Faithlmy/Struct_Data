@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
 	while (cin >> n >> e&&e != 0)
 	{
 		int i, j;
-		int s, t, w;      //表示存在一条边s->t,权值为w
+		int s, t, w;   //表示存在一条边s->t,权值为w
 		MGraph g;
 		int v0;
 		int *dist = (int *)malloc(sizeof(int)*n);
