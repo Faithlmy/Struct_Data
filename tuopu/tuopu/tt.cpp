@@ -10,6 +10,7 @@ typedef struct sqStack
 	int top;
 	int stackSize;//栈数组长度  
 }sqStack;
+
 /*顺序栈的初始化*/
 void initStack_Sq(sqStack &S)
 {
