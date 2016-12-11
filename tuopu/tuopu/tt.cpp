@@ -45,7 +45,7 @@ typedef struct VexNode
 	int indegree;
 }VexNode;
 typedef struct
-{//顶点表的定义     
+{ //顶点表的定义     
 	VexNode vexs[MAX_VERTEX_NUM];
 	int vexnum, edgenum;
 }LGraph;
