@@ -94,7 +94,7 @@ int main(int argc, char *argv[])
 			cin >> s >> t >> w;
 			g.matrix[s][t] = w;
 		}
-		cin >> v0;        //输入源顶点 
+		cin >> v0;    //输入源顶点 
 		DijkstraPath(g, dist, path, v0);
 		for (i = 0; i<n; i++)
 		{
