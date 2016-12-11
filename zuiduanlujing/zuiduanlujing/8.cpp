@@ -8,7 +8,7 @@ typedef struct node
 {
 	int matrix[N][M];     //邻接矩阵 
 	int n;                //顶点数 
-	int e;                 //边数 
+	int e;                //边数 
 }MGraph;
 
 void DijkstraPath(MGraph g, int *dist, int *path, int v0)   //v0表示源顶点 
