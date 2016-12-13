@@ -6,7 +6,7 @@ using namespace std;
 
 typedef struct node
 {
-	int matrix[N][M];     //邻接矩阵 
+	int matrix[N][M]; //邻接矩阵 
 	int n;                //顶点数 
 	int e;                //边数 
 }MGraph;
