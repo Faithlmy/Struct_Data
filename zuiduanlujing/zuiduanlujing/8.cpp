@@ -56,7 +56,7 @@ void DijkstraPath(MGraph g, int *dist, int *path, int v0)   //v0表示源顶点
 	}
 }
 
-void showPath(int *path, int v, int v0)   //打印最短路径上的各个顶点 
+void showPath(int *path, int v, int v0) //打印最短路径上的各个顶点 
 {
 	stack<int> s;
 	int u = v;
