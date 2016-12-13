@@ -20,7 +20,7 @@ void DijkstraPath(MGraph g, int *dist, int *path, int v0)   //v0表示源顶点
 		if (g.matrix[v0][i]>0 && i != v0)
 		{
 			dist[i] = g.matrix[v0][i];
-			path[i] = v0;     //path记录最短路径上从v0到i的前一个顶点 
+			path[i] = v0;   //path记录最短路径上从v0到i的前一个顶点 
 		}
 		else
 		{
