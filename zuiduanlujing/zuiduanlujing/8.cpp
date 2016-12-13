@@ -36,7 +36,7 @@ void DijkstraPath(MGraph g, int *dist, int *path, int v0)   //v0表示源顶点
 	{
 		int min = INT_MAX;
 		int u;
-		for (j = 0; j<g.n; j++)    //寻找未被扩展的权值最小的顶点 
+		for (j = 0; j<g.n; j++)   //寻找未被扩展的权值最小的顶点 
 		{
 			if (visited[j] == false && dist[j]<min)
 			{
