@@ -1,5 +1,4 @@
 #include <stdio.h>  
-
 /* 要求时间复杂度为O(n)*/
 void Divide(int array[], int n)
 {
