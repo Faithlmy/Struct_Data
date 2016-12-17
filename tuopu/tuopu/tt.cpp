@@ -100,7 +100,7 @@ void TopoSort(LGraph &G)
 		p = G.vexs[j].firstedge;//让p指向入度为0的顶点的第一个边表结点  
 		while (p)
 		{
-			G.vexs[p->adjvex].indegree--;//将入度为0的顶点的邻接点的入度减1  
+			G.vexs[p->adjvex].indegree--; //将入度为0的顶点的邻接点的入度减1  
 			if (G.vexs[p->adjvex].indegree == 0)
 				push(S, p->adjvex); //度减1后的顶点如果其入度为0，则将其入栈  
 			p = p->nextedge;
