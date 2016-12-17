@@ -37,7 +37,7 @@ void Josephus(int n, int k, int m)
 	prenode = curr;
 	while (k--)
 	{
-		prenode = pnode;      //prenode是pnode的前一个结点。  
+		prenode = pnode;     //prenode是pnode的前一个结点。  
 		pnode = pnode->link; //移动结点 pnode是第k个元素  
 	}
 	while (n--)
