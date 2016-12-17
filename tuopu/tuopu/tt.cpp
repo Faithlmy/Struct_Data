@@ -95,7 +95,7 @@ void TopoSort(LGraph &G)
 	while (S.top != -1)
 	{
 		j = pop(S);
-		cout << G.vexs[j].vex << " ";//将栈顶的元素出栈且输出，即将入度为0的顶点输出  
+		cout << G.vexs[j].vex << " "; //将栈顶的元素出栈且输出，即将入度为0的顶点输出  
 		count++;   //计数器加1  
 		p = G.vexs[j].firstedge; //让p指向入度为0的顶点的第一个边表结点  
 		while (p)
