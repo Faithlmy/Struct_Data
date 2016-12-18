@@ -13,7 +13,7 @@ void CreateQueue(PQUEUE Q, int maxsize)
 		printf("Memory allocation failure");
 		exit(-1);  //退出程序  
 	}
-	Q->front = 0;         //初始化参数  
+	Q->front = 0;  //初始化参数  
 	Q->rear = 0;
 	Q->maxsize = maxsize;
 }
