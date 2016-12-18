@@ -20,7 +20,7 @@ void Josephus(int n, int k, int m)
 	LinkList pnode, prenode, curr;
 	pnode = new LNode();
 	pnode->data = 1;
-	pnode->link = pnode;  //建立一个循环链表  
+	pnode->link = pnode; //建立一个循环链表  
 	curr = pnode;
 	for (int i = 2; i <= n; i++)
 	{
