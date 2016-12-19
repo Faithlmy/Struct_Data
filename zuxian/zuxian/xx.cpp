@@ -46,7 +46,6 @@ Node* find_common_parent(Node* root, Node* a, Node* b)
 		return NULL;
 	}
 	Node* common_parent = NULL;
-
 	vector<Node *> va, vb;
 	GetPath(root, va, a);
 	GetPath(root, vb, b);
