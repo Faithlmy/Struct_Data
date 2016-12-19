@@ -12,7 +12,7 @@ struct Node
 		:left(NULL)
 		, right(NULL)
 		, value(v)
-	{}
+	
 };
 bool GetPath(Node *root, vector<Node*>&path, Node* x)
 {
