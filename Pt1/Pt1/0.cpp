@@ -48,7 +48,7 @@ Tree * exchange_rootFirlst(Tree* T)  //先序遍历
 	return T;
 
 }
-void exchange_rootLast(Tree* T)   // 后序遍历
+void exchange_rootLast(Tree* T)  // 后序遍历
 {
 	if (T != NULL)
 	if (T->LChild != NULL || T->RChild != NULL)
