@@ -70,7 +70,7 @@ int getDepth(BiTree T)
 
 int getNodeAtLevel(BiTree T, int level)
 {
-	//下面的条件可以修正为：if(NULL == T)，但最好不要修改  
+//下面的条件可以修正为：if(NULL == T)，但最好不要修改  
 	if (NULL == T || level < 1 || level > getDepth(T))
 		return 0;
 
