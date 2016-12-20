@@ -31,7 +31,6 @@ void printTree(Tree *T)
 		printTree(T->LChild);
 		printTree(T->RChild);
 	}
-
 }
 Tree * exchange_rootFirlst(Tree* T) //ÏÈĞò±éÀú
 {
