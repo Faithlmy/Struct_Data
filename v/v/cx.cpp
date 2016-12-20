@@ -23,7 +23,6 @@ BiTreeNode *createNode(int i)
 
 	return q;
 }
-
 BiTree createBiTree1()
 {
 	BiTreeNode *p[N] = { NULL };
