@@ -54,7 +54,6 @@ void createBiTree2(BiTree &T)
 		createBiTree2(T->rightChild);
 	}
 }
-
 int max(int x, int y)
 {
 	return x > y ? x : y;
