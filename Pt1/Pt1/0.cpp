@@ -33,7 +33,7 @@ void printTree(Tree *T)
 	}
 
 }
-Tree * exchange_rootFirlst(Tree* T)  //先序遍历
+Tree * exchange_rootFirlst(Tree* T) //先序遍历
 {
 	if (T != NULL)
 	if (T->LChild != NULL || T->RChild != NULL)
