@@ -12,7 +12,6 @@ typedef struct node
 	struct node *rightChild;
 	char data;
 }BiTreeNode, *BiTree;
-
 //生成一个结点  
 BiTreeNode *createNode(int i)
 {
