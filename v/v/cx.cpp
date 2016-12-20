@@ -79,7 +79,6 @@ int getNodeAtLevel(BiTree T, int level)
 
 	return getNodeAtLevel(T->leftChild, level - 1) + getNodeAtLevel(T->rightChild, level - 1);
 }
-
 int main()
 {
 	BiTree T1;
