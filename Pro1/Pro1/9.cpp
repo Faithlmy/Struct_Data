@@ -97,5 +97,4 @@ void main()
 	exchange_rootMiddle(T);
 	printTree(T);
 	printf("\n");
-
 }
