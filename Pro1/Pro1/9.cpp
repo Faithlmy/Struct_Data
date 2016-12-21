@@ -1,6 +1,5 @@
 /*
-遍历二叉树
-*/
+遍历二叉树*/
 #include<stdio.h>
 #include<malloc.h>
 typedef struct Node{
