@@ -71,7 +71,6 @@ void levelOrderTraverse(const BiTree& T)
 		}
 	}
 }
-
 //二叉树的先序非递归遍历   
 void iterativePreOrderTraverse(const BiTree& T)
 {
