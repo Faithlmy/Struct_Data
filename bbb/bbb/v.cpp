@@ -150,7 +150,6 @@ void iterativePostOrderTraverse(const BiTree& T)
 		}
 	}
 }
-
 //后序非递归遍历的另一个版本   
 void anotherIterativePostOrderTraverse(const BiTree& T)
 {
