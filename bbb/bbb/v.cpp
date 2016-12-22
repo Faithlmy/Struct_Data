@@ -96,7 +96,6 @@ void iterativePreOrderTraverse(const BiTree& T)
 		}
 	}
 }
-
 //二叉树的中序非递归遍历   
 void iterativeInOrderTraverse(const BiTree& T)
 {
