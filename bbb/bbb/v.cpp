@@ -204,7 +204,6 @@ int main(int argc, char *argv[])
 	//  iterativePostOrderTraverse(T);  
 	anotherIterativePostOrderTraverse(T);
 	cout << endl;
-
 	destroyBiTree(T);//销毁二叉树，释放空间   
 	system("PAUSE");
 	return EXIT_SUCCESS;
