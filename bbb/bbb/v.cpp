@@ -54,7 +54,8 @@ void levelOrderTraverse(const BiTree& T)
 	{
 		q.push(T);
 	}
-	while (!q.empty())//队列非空   
+	while (!q.empty())
+		//队列非空   
 	{
 		p = q.front();
 		q.pop();
