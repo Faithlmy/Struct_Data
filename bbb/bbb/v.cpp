@@ -33,7 +33,6 @@ void createBiTree(BiTree &T)
 		createBiTree(T->rchild);
 	}
 }
-
 //µİ¹éÏú»ÙÒ»¿Ã¶ş²æÊ÷  
 void destroyBiTree(BiTree &T)
 {
