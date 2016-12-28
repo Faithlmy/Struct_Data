@@ -28,7 +28,6 @@ struct _graph
 	int vexnum, arcnum;
 };
 typedef struct _graph graph, *pgraph;
-
 /*  operation of queue */
 queue init_queue()
 {
