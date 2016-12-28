@@ -6,7 +6,8 @@
 #define QUEUE_SIZE (MAX_VERTEX+1)  
 #define DataType char  /* vertext's info  */  
 
-int *visited; /*  Node: visited flag with dynamic array, good idea ! */
+int *visited; 
+/*  Node: visited flag with dynamic array, good idea ! */
 /* init queue for bfs */
 struct _node
 {
@@ -107,7 +108,7 @@ graph create_graph()
 		tmp = getchar();
 		s1 = locate(g, ch1);
 		s2 = locate(g, ch2);
-		g.arcs[s1][s2] = g.arcs[s2][s1] = w; /*  NOTE: weight */
+		g.arcs[s1][s2] = g.arcs[s2][s1] = w; /*   NOTE: weight */
 	}
 	return g;
 }
