@@ -51,7 +51,7 @@ void en_queue(pqueue pqu, int v_num)
 }
 int isempty_queue(pqueue pqu)
 {
-	if (pqu->front == pqu->rear)
+	if  (pqu->front == pqu->rear)
 		return 1;
 	else
 		return 0;
