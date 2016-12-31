@@ -13,7 +13,6 @@ typedef struct BiTreeNode
 	struct BiTreeNode* lchild;
 	struct BiTreeNode* rchild;
 }BiTreeNode, *BiTree;
-
 //递归的建立一棵二叉树   
 //输入为二叉树的先序序列   
 void createBiTree(BiTree &T)
