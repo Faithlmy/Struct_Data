@@ -5,7 +5,6 @@
 using namespace std;
 //¶ş²æÊ÷¶¨Òå   
 typedef char ElementType;
-
 typedef struct BiTreeNode
 {
 	ElementType data;
