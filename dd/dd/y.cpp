@@ -3,7 +3,6 @@
 #include <stack>  
 #include <queue>  
 using namespace std;
-
 //¶ş²æÊ÷¶¨Òå   
 typedef char ElementType;
 
