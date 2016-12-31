@@ -40,7 +40,6 @@ void destroyBiTree(BiTree &T)
 		T = NULL;
 	}
 }
-
 //二叉树的层次遍历，用到了队列   
 void levelOrderTraverse(const BiTree& T)
 {
