@@ -3,7 +3,7 @@
 #include<ctype.h> 
 #include<time.h> 
 int n;
- // 对顺序表L作双向冒泡排序 
+// 对顺序表L作双向冒泡排序 
 void DblPPSort(int L[], int low, int high) {
 	int i, fini = 0;
 	while (low < high)
