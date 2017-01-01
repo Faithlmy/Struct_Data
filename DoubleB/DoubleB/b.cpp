@@ -9,7 +9,6 @@ void DblPPSort(int L[], int low, int high) {
 	while (low < high)
 	{
 		fini = 1;
-
 		for (i = low; i <= high; i++)
 		if (L[i] > L[i + 1])
 		{
