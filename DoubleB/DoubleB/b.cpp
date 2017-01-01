@@ -60,7 +60,8 @@ void main()
 			if (!(i)) putchar('\n');
 		}
 		break;
-	case 2:srand(time(NULL));
+	case 2:
+		srand(time(NULL));
 		puts("输入生成数大小上限");
 		scanf_s("%d", &m);
 		printf("自动生成%d个随机数:\n", n);
