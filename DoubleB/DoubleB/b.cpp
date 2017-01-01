@@ -80,7 +80,6 @@ void main()
 	puts("еепР╫А╧Ш:");
 
 	DblBbbSort(a);
-
 	for (i = 1; i <= n; i++)
 	{
 		printf("= ", a[i]);
