@@ -32,7 +32,6 @@ void DblPPSort(int L[], int low, int high) {
 		low++;
 	}
 }
-
 void DblBbbSort(int L[])
 {
 	DblPPSort(L, 1, n - 1);
