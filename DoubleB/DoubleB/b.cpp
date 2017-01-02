@@ -67,6 +67,7 @@ void main()
 		printf("自动生成%d个随机数:\n", n);
 		for (i = 1; i <= n; i++)
 		{
+
 			a[i] = rand() % m + 1;
 			printf("= ", a[i]);
 			if (!(i))
