@@ -77,6 +77,7 @@ void main()
 	}
 	puts("к╚оРц╟ещеепР");
 	puts("еепР╫А╧Ш:");
+
 	DblBbbSort(a);
 	for (i = 1; i <= n; i++)
 	{
