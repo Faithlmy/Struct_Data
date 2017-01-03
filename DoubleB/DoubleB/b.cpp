@@ -83,7 +83,6 @@ void main()
 		printf("= ", a[i]);
 		if (!(i)) putchar('\n');
 	}
-
 	getchar();
 	system("pause");
 }
