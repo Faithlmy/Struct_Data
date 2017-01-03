@@ -75,7 +75,6 @@ void main()
 		}
 		break;
 	}
-
 	puts("к╚оРц╟ещеепР");
 	puts("еепР╫А╧Ш:");
 	DblBbbSort(a);
