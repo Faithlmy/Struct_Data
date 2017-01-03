@@ -9,7 +9,7 @@ void InitQueue(SqQueue &Q)     //链式队列的初始化
 	Q.front = Q.rear;
 	Q.front->next = NULL;
 }
-void EnQueue(SqQueue &Q)   //链式队列的入队;
+void EnQueue(SqQueue &Q)  //链式队列的入队;
 {
 	LNode *p;
 	p = (LNode*)malloc(sizeof(LNode));
