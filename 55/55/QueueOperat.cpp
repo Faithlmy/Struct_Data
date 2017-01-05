@@ -26,7 +26,7 @@ ElemType PoQueue(SqQueue &Q)//链式队列的出队
 	if (Q.rear == Q.front)exit(OVERFLOW);
 	p = Q.front->next;
 	e = p->data;
-	Q.front->next = p->next;s
+	Q.front->next = p->next;
 	if (Q.rear == p) Q.rear = Q.front;
 	free(p);
 	return e;
