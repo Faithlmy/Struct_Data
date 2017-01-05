@@ -1,7 +1,7 @@
 #include "lmy.h"
 #include "Queue.cpp"
 #include "Stack.cpp"
-void InitQueue(SqQueue &Q)    //链式队列的初始化
+void InitQueue(SqQueue &Q)  //链式队列的初始化
 {
 	Q.rear = (LNode*)malloc(sizeof(LNode));
 	if (!Q.rear)exit(OVERFLOW);//判断是否成功开辟空间
