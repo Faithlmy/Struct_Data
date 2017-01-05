@@ -37,7 +37,8 @@ void Create_Sq(SqQueueCir &q)
 	if (!q.base)exit(OVERFLOW);
 	q.front = q.rear = 0;
 }
-void InitQueue_Sq(SqQueueCir &q)//入队
+void InitQueue_Sq(SqQueueCir &q)
+//入队
 {
 	if ((q.rear + 1) % MAX == q.front)exit(OVERFLOW);
 	cin >> q.base[q.rear];
