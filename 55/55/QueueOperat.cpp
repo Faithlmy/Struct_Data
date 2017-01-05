@@ -27,6 +27,7 @@ ElemType PoQueue(SqQueue &Q)//链式队列的出队
 	p = Q.front->next;
 	e = p->data;
 	Q.front->next = p->next;
+
 	if (Q.rear == p) Q.rear = Q.front;
 	free(p);
 	return e;
