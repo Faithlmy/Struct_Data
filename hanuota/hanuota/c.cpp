@@ -11,7 +11,7 @@ void hanoi(int n, char from, char denpend_on, char to)
 	else
 	{
 		hanoi(n - 1, from, to, denpend_on);//先将初始塔的前n-1个盘子借助目的塔移动到借用塔上  
-		move(n, from, to);           //将剩下的一个盘子移动到目的塔上  
+		move(n, from, to);          //将剩下的一个盘子移动到目的塔上  
 		hanoi(n - 1, denpend_on, from, to);//最后将借用塔上的n-1个盘子移动到目的塔上  
 	}
 }
