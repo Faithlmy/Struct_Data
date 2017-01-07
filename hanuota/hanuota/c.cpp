@@ -2,8 +2,7 @@
 //第一个塔为初始塔，中间的塔为借用塔，最后一个塔为目标塔  
 int i = 1;//记录步数  
 void move(int n, char from, char to) //将编号为n的盘子由from移动到to  
-{
-	printf("第%d步:将%d号盘子%c---->%c\n", i++, n, from, to);
+{	printf("第%d步:将%d号盘子%c---->%c\n", i++, n, from, to);
 }
 void hanoi(int n, char from, char denpend_on, char to)
 { //将n个盘子由初始塔移动到目标塔(利用借用塔)  
