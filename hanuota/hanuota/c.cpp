@@ -4,7 +4,8 @@ void move(int n, char from, char to) //将编号为n的盘子由from移动到to
 {	printf("第%d步:将%d号盘子%c---->%c\n", i++, n, from, to);
 }
 void hanoi(int n, char from, char denpend_on, char to)
-{ //将n个盘子由初始塔移动到目标塔(利用借用塔)  
+{ 
+	//将n个盘子由初始塔移动到目标塔(利用借用塔)  
 	if (n == 1)
 		move(1, from, to);//只有一个盘子是直接将初塔上的盘子移动到目的地  
 	else
