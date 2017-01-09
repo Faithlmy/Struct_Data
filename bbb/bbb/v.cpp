@@ -78,7 +78,7 @@ void iterativePreOrderTraverse(const BiTree& T)
 
 	while (p || !s.empty())//p非空，或栈非空  
 	{
-		if (p)
+	if (p)
 		{//输出根结点，根结点入栈，遍历左子树   
 			cout << p->data << " ";
 			s.push(p);
