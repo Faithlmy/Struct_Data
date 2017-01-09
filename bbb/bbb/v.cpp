@@ -72,8 +72,7 @@ void levelOrderTraverse(const BiTree& T)
 }
 //二叉树的先序非递归遍历   
 void iterativePreOrderTraverse(const BiTree& T)
-{
-	stack<BiTree> s;
+{stack<BiTree> s;
 	BiTree p = T;
 	while (p || !s.empty())//p非空，或栈非空  
 	{
