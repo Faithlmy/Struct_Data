@@ -75,7 +75,6 @@ void iterativePreOrderTraverse(const BiTree& T)
 {
 	stack<BiTree> s;
 	BiTree p = T;
-
 	while (p || !s.empty())//p∑«ø’£¨ªÚ’ª∑«ø’  
 	{
 	if (p)
