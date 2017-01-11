@@ -1,8 +1,7 @@
 #include "lmy.h"
 
 typedef struct Queue    //链式队列；
-{
-	struct LNode *rear;
+{   struct LNode *rear;
 	struct LNode *front;
 }SqQueue;
 typedef struct        //顺序队列
